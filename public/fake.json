@@ -1,0 +1,38 @@
+[
+    {
+        "id": "01",
+        "author name": "Mr Raju",
+        "blog title": "How to get your first job as a self-taught programmer",
+        "blog cover image": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "author image": "https://www.jobz.pk/images/pics/2022-12/674819_1_14495.jpg",
+        "read time": "10 min Read",
+        "publish Date": "March 18 2023"
+    },
+    {
+        "id": "02",
+        "author name": "Nizam Ahmed",
+        "blog title": "How to get your first job as a self-taught programmer",
+        "blog cover image": "https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "author image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Pierre-Person.jpg/1200px-Pierre-Person.jpg",
+        "read time": "5 min Read",
+        "publish Date": "March 14 2023"
+    },
+    {
+        "id": "03",
+        "author name": "Mina Mostafa",
+        "blog title": "How to get your first job as a self-taught programmer",
+        "blog cover image": "https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "author image": "https://pbs.twimg.com/profile_images/1586626001366560773/w4lexOmN_400x400.jpg",
+        "read time": "15 min Read",
+        "publish Date": "March 20 2023"
+    },
+    {
+        "id": "04",
+        "author name": "Sakib Ahmed",
+        "blog title": "How to get your first job as a self-taught programmer",
+        "blog cover image": "https://images.unsplash.com/photo-1654498770512-c9045a3b6be0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "author image": "https://cdn.truelancer.com/user-picture/1088515-5d9b84e6f183f.jpg",
+        "read time": "20 min Read",
+        "publish Date": "March 25 2023"
+    }
+]
