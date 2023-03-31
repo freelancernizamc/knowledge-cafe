@@ -8,6 +8,19 @@ import Cart from './components/Cart/Cart'
 import SideCart from './components/SideCart/SideCart'
 
 function App() {
+  const [readTime, setReadTime] = useState("");
+
+  const handleReadTime = (time) => {
+    const previousReadTime = JSON.parse(localStorage.getItem('readTime'));
+    if (previousReadTime) {
+      const sum = previousReadTime + time;
+      localStorage.setItem('readTime', sum);
+      setReadTime(sum);
+    } else {
+      localStorage.setItem('readTime', time);
+      setReadTime(time)
+    }
+  };
   const [count, setCount] = useState(0)
 
   return (
@@ -15,12 +28,14 @@ function App() {
 
       <Header></Header>
       <hr></hr>
-      <div className="main flex justify-between">
+      <div className="main md:flex justify-between">
         <div className="cart-container">
-          <Cart></Cart>
+          <Cart handleReadTime={handleReadTime}></Cart>
         </div>
         <div className="sideCart">
-          <SideCart></SideCart>
+          <SideCart readTime={readTime}></SideCart>
+
+
         </div>
       </div>
     </div>

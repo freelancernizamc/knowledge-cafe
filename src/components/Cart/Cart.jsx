@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SingleCard from '../SingleCard/SingleCard';
 
-const Cart = () => {
+const Cart = ({ handleReadTime }) => {
     const [carts, setCarts] = useState([])
     useEffect(() => {
         fetch("fake.json")
@@ -16,7 +16,7 @@ const Cart = () => {
         <div className='card-container'>
             {
                 carts.map((cart) => (
-                    <SingleCard cart={cart}></SingleCard>
+                    <SingleCard cart={cart} handleReadTime={handleReadTime}></SingleCard>
 
                 ))
             }
