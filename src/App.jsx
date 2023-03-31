@@ -6,6 +6,8 @@ import './App.css'
 import Header from './components/Header/Header'
 import Cart from './components/Cart/Cart'
 import SideCart from './components/SideCart/SideCart'
+import Blog from './components/Blog/Blog'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [readTime, setReadTime] = useState("");
@@ -38,6 +40,10 @@ function App() {
 
         </div>
       </div>
+      <div>
+        <Blog></Blog>
+      </div>
+      <Footer></Footer>
     </div>
   )
 }
