@@ -5,7 +5,9 @@ const SideCart = ({ readTime }) => {
 
     useEffect(() => {
         const getReadTimeFromStorage = localStorage.getItem('readTime');
+
         setTime(getReadTimeFromStorage);
+
     }, [readTime])
     return (
         <div>
@@ -14,6 +16,7 @@ const SideCart = ({ readTime }) => {
             </div>
             <div>
                 <h1 className='text-2xl font-bold'>Bookmarked Blogs : 00</h1>
+
 
             </div>
         </div>
