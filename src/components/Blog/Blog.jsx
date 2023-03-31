@@ -23,6 +23,7 @@ const Blog = () => {
                 3. Props and State: Components can receive data from their parent components through props, which are essentially parameters that are passed in when the component is created.
                 4. Rendering: When a component is created or updated, React calls the render method.
                 5. Event handling: React components can respond to user events, such as clicks or key presses.
+
             </h2>
         </div>
     );
