@@ -1,7 +1,7 @@
 import React from "react";
 import Swal from 'sweetalert2'
 
-const SingleCard = ({ cart, handleReadTime, handleAddBookmark }) => {
+const SingleCard = ({ cart, handleReadTime, handleBookmark }) => {
   const handleBookmarkClick = (blogTitle, id) => {
     const previousBookMark = JSON.parse(localStorage.getItem("bookmark"));
     let bookmark = [];
@@ -18,11 +18,13 @@ const SingleCard = ({ cart, handleReadTime, handleAddBookmark }) => {
       } else {
         bookmark.push(...previousBookMark, cart);
         localStorage.setItem('bookmark', JSON.stringify(bookmark));
-        console.log(bookmark);
+        // console.log(bookmark);
+        handleBookmark(bookmark);
       }
     } else {
       bookmark.push(cart);
       localStorage.setItem('bookmark', JSON.stringify(bookmark));
+      handleBookmark(bookmark);
     }
   };
 

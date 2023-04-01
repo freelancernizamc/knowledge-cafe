@@ -25,6 +25,12 @@ function App() {
   };
   const [count, setCount] = useState(0)
 
+  const [bookmark, setBookMark] = useState([]);
+
+  const handleBookmark = (data) => {
+    setBookMark(data);
+  };
+
   return (
     <div className="App">
 
@@ -36,6 +42,9 @@ function App() {
         </div>
         <div className="sideCart">
           <SideCart readTime={readTime}></SideCart>
+          <SideCart handleBookmark={handleBookmark}></SideCart>
+
+
 
 
         </div>
