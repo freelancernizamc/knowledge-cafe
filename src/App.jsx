@@ -41,8 +41,8 @@ function App() {
           <Cart handleReadTime={handleReadTime}></Cart>
         </div>
         <div className="sideCart">
-          <SideCart readTime={readTime}></SideCart>
-          <SideCart handleBookmark={handleBookmark}></SideCart>
+          <SideCart readTime={readTime} handleBookmark={handleBookmark}></SideCart>
+
 
 
 
